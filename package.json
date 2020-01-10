@@ -1,0 +1,33 @@
+{
+  "name": "express-shield",
+  "version": "0.0.1",
+  "description": "OAuth for Express. Simple. Secure. Beautiful.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require test/support/env --bail --check-leaks test/",
+    "test-dev": "nodemon --exec 'clear && (yarn test || exit 1)'",
+    "test-express-example": "mocha example/express/tests/**/*.js --exit"
+  },
+  "keywords": [
+    "OAuth2.0",
+    "Express",
+    "Authorization"
+  ],
+  "dependencies": {
+    "basic-auth": "1.1.0",
+    "type-is": "1.6.15"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^7.0.0",
+    "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=13.5.0"
+  },
+  "author": "Asher Gunsay <asher.gunsay@gmail.com>",
+  "license": "ISC"
+}
