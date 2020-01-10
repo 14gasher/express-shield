@@ -1,12 +1,16 @@
 {
   "name": "express-shield",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "OAuth for Express. Simple. Secure. Beautiful.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/support/env --bail --check-leaks test/",
     "test-dev": "nodemon --exec 'clear && (yarn test || exit 1)'",
     "test-express-example": "mocha example/express/tests/**/*.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/14gasher/express-shield"
   },
   "keywords": [
     "OAuth2.0",
@@ -29,5 +33,5 @@
     "node": ">=13.5.0"
   },
   "author": "Asher Gunsay <asher.gunsay@gmail.com>",
-  "license": "ISC"
+  "license": "MIT"
 }
