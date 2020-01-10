@@ -16,6 +16,8 @@ const db = { // Here is a fast overview of what your db model should look like
   token: {
     accessToken: '', // Access token that the server created
     accessTokenExpiresAt: new Date(), // Date the token expires
+    refreshToken: '', // NOTE this is only needed if you need refresh tokens down the line
+    refreshTokenExpiresAt: new Date(),
     client: null, // Client associated with this token
     user: null, // User associated with this token
   },
