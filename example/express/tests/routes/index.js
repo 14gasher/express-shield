@@ -94,7 +94,6 @@ describe('/oauth', () => {
             res.body.should.have.own.property('access_token')
             res.body.should.have.own.property('token_type')
             res.body.should.have.own.property('refresh_token')
-            res.body.access_token.should.not.be.null
             res.body.token_type.should.equal('Bearer')
           })
       })

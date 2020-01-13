@@ -1,6 +1,6 @@
 {
   "name": "express-shield",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "OAuth for Express. Simple. Secure. Beautiful.",
   "main": "index.js",
   "scripts": {
